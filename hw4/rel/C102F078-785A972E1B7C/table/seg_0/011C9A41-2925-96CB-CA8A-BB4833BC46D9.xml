@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="011C9A41-2925-96CB-CA8A-BB4833BC46D9" name="SIM_dept">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:29:18 UTC</createdTime>
+<generatorID>75F38AF0-E857-515A-00B8-0AE6A0409851</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dept_id" id="D7ACA206-7431-8D50-86BF-1D03D08AE8EF">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:29:18 UTC</createdTime>
+<generatorID>706340EE-20D9-98D4-1C26-236316251846</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BF6E5CC0-8639-2BFD-C8EE-627826A6F996">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:29:18 UTC</createdTime>
+<generatorID>7BB975FE-EE00-984D-949A-FE665CF855FF</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="20735965-D455-0CA1-1710-B11A0A9523EE">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:29:18 UTC</createdTime>
+<generatorID>1B7639BA-B3DD-2970-9322-FCA669E3B0A1</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_Person_person_id" id="69B0382D-1D01-BB0C-B5F8-C1D18806C65D">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:29:18 UTC</createdTime>
+<generatorID>4D3521AC-7F16-0366-03EB-26ACE07919B4</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="735FB4C8-C594-719A-BD8E-B3F0A6687FF8" referredColumn="9C236B4E-F1F2-0EAE-2D28-2272B1170303"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E854C81E-87CC-C1AA-88F4-0465AFB7E482" name="SIM_dept_PK">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:29:18 UTC</createdTime>
+<generatorID>942CC0FA-0C40-ECB8-24DA-CB06D75DB2FF</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7ACA206-7431-8D50-86BF-1D03D08AE8EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="683DFD68-348A-1384-79DC-0DFDCD798CEE" name="SIM_dept__IDX">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:29:18 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E19D0FD3-FB52-049D-DE27-A9AF8F418590</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="69B0382D-1D01-BB0C-B5F8-C1D18806C65D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A0BD92C-BF98-BC1E-3D41-A20E414FC33A" name="SIM_dept_SIM_Person_FK">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:29:18 UTC</createdTime>
+<generatorID>E19D0FD3-FB52-049D-DE27-A9AF8F418590</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69B0382D-1D01-BB0C-B5F8-C1D18806C65D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

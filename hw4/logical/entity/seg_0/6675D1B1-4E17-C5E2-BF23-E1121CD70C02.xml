@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6675D1B1-4E17-C5E2-BF23-E1121CD70C02" name="SIM_p2p">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 00:55:26 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<engineerTo>
+<item key="C102F078-3F4D-8DEA-00D2-785A972E1B7C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_id" id="B9DA4AEA-AF93-6473-8FC8-4F9034F5F9A8">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 00:58:56 UTC</createdTime>
+<generatorID>972402E6-20D0-8C90-1B4A-0BA8905E55DB</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<engineerTo>
+<item key="C102F078-3F4D-8DEA-00D2-785A972E1B7C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E7BA08CA-E787-23F6-DB29-C0901F0F47B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="CA6FD2A0-F302-5858-AFE0-C10E44B9390D">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:19:01 UTC</createdTime>
+<generatorID>C22B8C7D-B43B-1341-0C69-07AD79FA7B7C</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<engineerTo>
+<item key="C102F078-3F4D-8DEA-00D2-785A972E1B7C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2030DFE0-0AD1-3A1C-EC5E-D1C981862463</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="per_proj" id="739C541D-D766-5E71-54A2-63D7DE68ED6D">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:22:08 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<engineerTo>
+<item key="C102F078-3F4D-8DEA-00D2-785A972E1B7C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E21BC015-3629-E987-F222-FBE322D5AC35" name="SIM_p2p PK">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:22:10 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<engineerTo>
+<item key="C102F078-3F4D-8DEA-00D2-785A972E1B7C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>739C541D-D766-5E71-54A2-63D7DE68ED6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

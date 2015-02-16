@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="652F8FA9-9C05-F49F-E920-44DACFCE2ED2" name="SIM_proj_emp">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:46:27 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<userDefined>false</userDefined>
+<parsed>true</parsed>
+<usedContainers>
+<container containerID="28E11513-B41B-A3DD-B99F-484A388E128D"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rating" id="DAD97E97-3DB8-BCA2-06B7-A8FF3033C16A">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (255 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>522ABFC0-E668-BC9A-5738-2D5B51CE40FE</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="title" id="3C2D1B9B-F715-6BE3-A4DC-2400FEC0AEA3">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (255 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>5D792078-62F5-E4C2-FCAF-035710691D0E</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SIM_dept_dept_id" id="1E8E8748-572D-E9D6-4393-BE0D6938EB9C">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>86886805-79DD-4432-3621-BF9B589F3621</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="status" id="78F1CA89-7ECA-7C54-89E4-55B19FA4BD82">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (255 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>ED5A1085-072E-A1AD-2B60-1E305494C7E1</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="salary" id="FABADB42-A6EC-F546-B2AB-9DEF1AA8E8EF">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>2A6043C0-2D65-A0B3-9B53-04E53151036C</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="hire_date" id="E172AC2D-23D2-9C58-AF62-ADB5F5978793">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>DATE</dataType>
+<reference>false</reference>
+<referencedColumn>B250C7D7-C154-0FCD-1862-64DA3D9113BF</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="zip" id="4938BDD3-5A7A-16D9-9E0F-F3C8AA0BECFF">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>E9A62E9F-13DD-8036-D2CC-32CA26AFCBBE</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="state" id="AE36F7FB-0FEA-D40B-D35F-7FB7CCA7EA8E">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (255 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>3DDF9A79-E02C-8B03-9056-C7811D29B318</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="city" id="11516815-2ADD-D901-98F6-7A91B990B771">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (255 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>E1497865-2967-8B07-7CE2-25C4928D8A4A</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="address" id="8E994C67-BF6A-9404-9219-4F617DD89E68">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (255 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>FCBC908B-64A4-DCDE-CB7C-E4DADCC667CE</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="birth_date" id="B6525AFF-499E-CAD0-B104-3B0DDBE4C480">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>DATE</dataType>
+<reference>false</reference>
+<referencedColumn>A4894EBF-4C18-C864-D87E-B494AEF1556E</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="gender" id="9B4F4BAC-E8E1-02CE-3391-F611C589EA6A">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (255 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>E727B8D0-F9F3-9D8B-782A-6BD0CA7F93A0</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ssum" id="C8FE433B-C988-E645-8106-198E6448DC0D">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>74D7E492-9B1B-0249-6003-2D96AD686E8B</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="name" id="A6F19D9A-C312-E750-1022-6BA144D1B2EC">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (255 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>900342B8-FD8D-E788-6CB3-5E140E1C2747</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="person_id" id="EB491709-AA8E-DDB9-3C0D-CDA81B1ACB0E">
+<createdBy>Jacob</createdBy>
+<createdTime>2015-02-16 22:49:33 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>9C236B4E-F1F2-0EAE-2D28-2272B1170303</referencedColumn>
+<table>28E11513-B41B-A3DD-B99F-484A388E128D</table>
+</viewElement>
+</viewElements>
+</TableView>
