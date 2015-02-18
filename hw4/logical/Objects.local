@@ -1,12 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="DE5D058C-EDA1-9D4C-2504-044A231A5303" name="SIM_Person" seqName="seg_0"/>
-   <object objectType="Entity" objectID="75F38AF0-E857-515A-00B8-0AE6A0409851" name="SIM_dept" seqName="seg_0"/>
    <object objectType="Entity" objectID="6675D1B1-4E17-C5E2-BF23-E1121CD70C02" name="SIM_p2p" seqName="seg_0"/>
+   <object objectType="Entity" objectID="75F38AF0-E857-515A-00B8-0AE6A0409851" name="SIM_dept" seqName="seg_0"/>
    <object objectType="Entity" objectID="98BBE7F5-CB65-5881-02E2-2E7367F6A99A" name="SIM_project" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DE5D058C-EDA1-9D4C-2504-044A231A5303" name="SIM_Person" seqName="seg_0"/>
+   <object objectType="Relation" objectID="972402E6-20D0-8C90-1B4A-0BA8905E55DB" name="r5" seqName="seg_0"/>
    <object objectType="Relation" objectID="C22B8C7D-B43B-1341-0C69-07AD79FA7B7C" name="r1" seqName="seg_0"/>
    <object objectType="Relation" objectID="E0910DE4-42A0-0530-0A16-EEE3E1189A2A" name="r2" seqName="seg_0"/>
-   <object objectType="Relation" objectID="F6452C2D-4D78-D2F5-8EFB-30B55E33D2BD" name="r3" seqName="seg_0"/>
-   <object objectType="Relation" objectID="972402E6-20D0-8C90-1B4A-0BA8905E55DB" name="r5" seqName="seg_0"/>
    <object objectType="Relation" objectID="E19D0FD3-FB52-049D-DE27-A9AF8F418590" name="r5v1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F6452C2D-4D78-D2F5-8EFB-30B55E33D2BD" name="r3" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

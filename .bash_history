@@ -56,3 +56,36 @@ git add .
 git commit
 git push
 git push
+ls
+pwd
+ls
+run_parsers.sh HW4ddlretry.ddl
+ls
+rm hw4.d*
+ls
+rm Org.ddl 
+ls
+rm HW4updated
+rm -r HW4updated
+rm File.*
+rm *.dmd
+ls
+mv HW4ddlretry.ddl hw4.ddl
+ls
+chmod 770 run_parsers.sh 
+run_parsers.sh hw4.ddl
+ls
+cat hw4.ddl | sed -e "s/;/;~/" -e 's/"//g' | tr -s "\n~" " \n" | grep "ALTER TABLE.*KEY" | tr -d '\15\32' | java -jar DDLParser.jar
+ls
+cat hw4.ddl | sed -e "s/;/;~/" -e 's/"//g' | tr -s "\n~" " \n" | grep "ALTER TABLE.*KEY" | tr -d '\15\32' | java -jar DDLParser.jar > hw4.ddl2
+cat hw4.ddl | sed -e "s/;/;~/" -e 's/"//g' | tr -s "\n~" " \n" | grep "ALTER TABLE.*KEY" | tr -d '\15\32' | java -jar DDLParser2.jar > hw4.ddl3
+ls
+ls
+mv hw4.ddl4.ddl hw4.ddl4
+ls
+git add .
+git commit 'commit3'
+git commit
+git push
+git pull
+git push
