@@ -89,3 +89,19 @@ git commit
 git push
 git pull
 git push
+ls
+git add .
+git push
+git push
+git committ
+git commit
+git push
+git add .
+git commit
+git push
+ls
+ls
+git add .
+git commit
+git push
+ls
